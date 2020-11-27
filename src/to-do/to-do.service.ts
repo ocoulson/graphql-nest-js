@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { ID } from "@nestjs/graphql";
-import { CreateToDoInput, ToDo } from "src/backend/graphql.schema";
+import { CreateToDoInput, ToDo } from "src/graphql.schema";
 
 @Injectable()
 export class ToDoService {
