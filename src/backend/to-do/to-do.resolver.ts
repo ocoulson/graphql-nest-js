@@ -1,6 +1,6 @@
 import { Query, Args, Resolver, Mutation, Subscription } from "@nestjs/graphql";
 import { PubSub } from "apollo-server";
-import { CreateToDoInput, ToDo, UpdateToDoInput } from "src/graphql.schema";
+import { CreateToDoInput, ToDo, UpdateToDoInput } from "src/backend/graphql.schema";
 import { ToDoService } from "./to-do.service";
 
 const pubSub = new PubSub();
